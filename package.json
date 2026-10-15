@@ -1,0 +1,21 @@
+{
+  "name": "hse-2026-duqm-platform",
+  "version": "1.0.0",
+  "description": "Cloud-based HSE 2026 tracking platform for OICC Duqm site",
+  "type": "module",
+  "main": "src/index.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0"
+  }
+}

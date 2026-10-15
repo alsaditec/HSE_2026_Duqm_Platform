@@ -1,0 +1,96 @@
+{
+  "team": [
+    {
+      "id": "user_001",
+      "name": "Hisham",
+      "email": "ibn.ibra2@gmail.com",
+      "role": "Manager",
+      "position": "HSE Manager",
+      "permissions": [
+        "view_all",
+        "edit_items",
+        "manage_users",
+        "generate_reports",
+        "link_evidence",
+        "export_data"
+      ],
+      "assignedItems": ["LA1.3", "LA1.4", "LA2.1", "LA4.1", "RA1.1", "RA3.1"],
+      "status": "Active"
+    },
+    {
+      "id": "user_002",
+      "name": "HSE Advisor",
+      "email": "hse.advisor@oicc.om",
+      "role": "Updater",
+      "position": "HSE Advisor (Duqm)",
+      "permissions": [
+        "view_all",
+        "edit_items",
+        "link_evidence",
+        "update_progress",
+        "export_data"
+      ],
+      "assignedItems": ["RA1.1", "RA1.2", "RA3.1", "LA2.1"],
+      "status": "Active"
+    },
+    {
+      "id": "user_003",
+      "name": "Area Manager",
+      "email": "area.manager@oicc.om",
+      "role": "Updater",
+      "position": "Area Manager",
+      "permissions": [
+        "view_all",
+        "edit_items",
+        "update_progress"
+      ],
+      "assignedItems": ["LA1.3", "LA1.4"],
+      "status": "Active"
+    },
+    {
+      "id": "user_004",
+      "name": "General Manager",
+      "email": "gm@oicc.om",
+      "role": "Viewer",
+      "position": "General Manager",
+      "permissions": [
+        "view_all",
+        "export_data",
+        "generate_reports"
+      ],
+      "assignedItems": [],
+      "status": "Active"
+    },
+    {
+      "id": "user_005",
+      "name": "CEO",
+      "email": "ceo@oicc.om",
+      "role": "Viewer",
+      "position": "CEO",
+      "permissions": [
+        "view_all",
+        "generate_reports",
+        "export_data"
+      ],
+      "assignedItems": [],
+      "status": "Active"
+    }
+  ],
+  "roles": {
+    "Manager": {
+      "description": "Full access - Can view, edit, manage users and generate reports",
+      "color": "#d32f2f",
+      "level": 3
+    },
+    "Updater": {
+      "description": "Can view all items and update progress, but cannot manage users",
+      "color": "#f57c00",
+      "level": 2
+    },
+    "Viewer": {
+      "description": "Read-only access - Can view all items and generate reports",
+      "color": "#388e3c",
+      "level": 1
+    }
+  }
+}
