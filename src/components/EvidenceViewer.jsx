@@ -44,8 +44,8 @@ function EvidenceViewer({ evidenceMapping, items }) {
                   borderLeft: '4px solid #2a5298',
                   cursor: 'pointer',
                   display: 'flex',
-                  justify-content: 'space-between',
-                  align-items: 'center',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
                   background: isExpanded ? '#f9f9f9' : 'white',
                   transition: 'all 0.3s ease'
                 }}
